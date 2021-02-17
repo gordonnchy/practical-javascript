@@ -1,0 +1,6 @@
+Todos App - Version 1
+1-[x] It should have a way to store items
+2-[] It should have a way to display the items
+3-[] It should have a way to add items
+4-[] It should have a way to check items
+5-[] It should have a way to remove items
