@@ -7,11 +7,16 @@
 
   <body>
     <script>
+      //store the items
       var todos = ['item 1', 'iten 2', 'item 3'];
-
+      //show items
       console.log(todos);
-
-      todos.push('iem 4');
+      //add item
+      todos.push('item 4');
+      //edit item
+      todos[0] = 'item 1 updated';
+      //remove items
+      todos.splice(0,1);
     </script>
   </body>
 </html>
