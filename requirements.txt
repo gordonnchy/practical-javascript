@@ -4,3 +4,8 @@ Todos App - Version 1
 3-[x] It should have a way to add items
 4-[x] It should have a way to edit items
 5-[x] It should have a way to remove items
+6-[x] It should have a way to restore/undo the removed todo
+7-[x] It should have a way to add sub-todos on existing todo (parent & children relationship)
+8-[x] It should have a way to schedule todos
+9-[x] It should have a way to reschedule todos
+10-[x] It should have a way to indicate overdue todos
