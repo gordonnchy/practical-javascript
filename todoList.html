@@ -3,9 +3,30 @@
 <html>
   <head>
     <title>Practical JavaScript</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Bootsrap-icons css -->
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/app.css">
   </head>
 
   <body>
+
+
+    <div class="container">
+      <div class="container-wrapper">
+        <div class="input-wrapper">
+          <input type="text" id="todo-input" placeholder="todos.....">
+          <button class="btn" id="add" onclick="addTodo()"><i class="bi bi-plus"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/app.js"></script>
     <script>
       //store the items
       var todos = ['item 1', 'iten 2', 'item 3'];
@@ -16,7 +37,9 @@
       //edit item
       todos[0] = 'item 1 updated';
       //remove items
-      todos.splice(0,1);
+      todos.splice(0, 1, [7, 9 ,0]);
+
+      console.log(todos);
     </script>
   </body>
 </html>

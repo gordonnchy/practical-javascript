@@ -1,0 +1,2 @@
+# exclude these files from remote
+node_modules
